@@ -1,0 +1,41 @@
+{
+  "name": "qite",
+  "version": "1.0.0",
+  "description": "A code editor built with Electron, featuring a file explorer, syntax highlighting, and a built-in terminal.",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "electron .",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "dependencies": {
+    "electron": "^latest",
+    "react": "^latest",
+    "react-dom": "^latest",
+    "monaco-editor": "^latest",
+    "xterm": "^latest"
+  },
+  "devDependencies": {
+    "typescript": "^latest",
+    "webpack": "^latest",
+    "webpack-cli": "^latest",
+    "ts-loader": "^latest",
+    "css-loader": "^latest",
+    "style-loader": "^latest",
+    "babel-loader": "^latest",
+    "react-refresh": "^latest",
+    "webpack-dev-server": "^latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/qite.git"
+  },
+  "keywords": [
+    "electron",
+    "code editor",
+    "monaco",
+    "terminal"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
