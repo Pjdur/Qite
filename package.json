@@ -9,26 +9,26 @@
     "dev": "webpack --mode development"
   },
   "dependencies": {
-    "electron": "^latest",
-    "react": "^latest",
-    "react-dom": "^latest",
-    "monaco-editor": "^latest",
-    "xterm": "^latest"
+    "electron": "35.1.5",
+    "react": "19.1.0",
+    "react-dom": "^19.1.0",
+    "monaco-editor": "^0.52.2",
+    "xterm": "^5.3.0"
   },
   "devDependencies": {
-    "typescript": "^latest",
-    "webpack": "^latest",
-    "webpack-cli": "^latest",
-    "ts-loader": "^latest",
-    "css-loader": "^latest",
-    "style-loader": "^latest",
-    "babel-loader": "^latest",
-    "react-refresh": "^latest",
-    "webpack-dev-server": "^latest"
+    "typescript": "5.8.3",
+    "webpack": "^5.99.5",
+    "webpack-cli": "6.0.1",
+    "ts-loader": "9.5.2",
+    "css-loader": "7.1.2",
+    "style-loader": "4.0.0",
+    "babel-loader": "10.0.0",
+    "react-refresh": "^0.17.0",
+    "webpack-dev-server": "^5.2.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/qite.git"
+    "url": "https://github.com/Pjdur/Qite.git"
   },
   "keywords": [
     "electron",
@@ -36,6 +36,6 @@
     "monaco",
     "terminal"
   ],
-  "author": "Your Name",
+  "author": "Pjdur",
   "license": "MIT"
 }
